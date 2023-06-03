@@ -1,10 +1,9 @@
-Integer English,Hindhi,Maths,Physics,Chemistry,Totalmarks,Averagemarks;
+Integer English,Hindhi,Maths,Physics,Totalmarks,Averagemarks;
     English=84;
 	Hindhi=72;
 	Maths=90;
 	Physics=65;
-	Chemistry=80;
-	Totalmarks=English+Hindhi+Maths+Physics+Chemistry;
-	Averagemarks=totalmarks/5;
+	Totalmarks=English+Hindhi+Maths+Physics;
+	Averagemarks=totalmarks/4;
 System.debug('your Totalmarks are...:'+Totalmarks);
 System.debug('Averagemarks are...:'+Averagemarks);
